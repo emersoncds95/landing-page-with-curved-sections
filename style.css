@@ -1,0 +1,138 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*-----TOPO-------*/
+.topo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.botao-topo{
+    border-radius: 15px;
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: white;
+    width: 90px;
+}
+.botao-topo:hover{
+    color: hsl(321, 100%, 78%);
+    border: 1px solid hsl(321, 100%, 78%)
+}
+/*---------HEADER-----------*/
+.texto-header{
+    margin-top: 150px;
+    text-align: center;
+}
+.texto-header h1{
+    font-weight: 700;
+}
+.texto-header p {
+    margin-top: 30px;
+}
+.botao-header{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 80px;
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+}
+.botao-header:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+
+/*--INFO HEADER--*/
+.imagem-header{
+    margin-top: 150px;
+    text-align: center;
+}
+.numeros-info{
+    text-align: center;
+    margin-top: 100px;
+}
+.numero-esquerda h2{
+    font-size: 80px;
+    font-weight: 700;
+}
+.numero-esquerda p{
+    color: rgb(126, 126, 126);
+    font-size: 18px;
+}
+
+/*-----SECTION TOGETHER------*/
+.bg{
+    width: 100%;
+}
+.conteudo{
+    background-color: hsl(207, 100%, 98%);
+}
+.texto-together{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*----CONVERSATION---*/
+
+/*-----BUILD COMMUNITY------*/
+.build-community{
+    margin-top: 180px;
+    text-align: center;
+    height: 40vh;
+    
+}
+
+/*footer*/
+.conteudo-footer{
+    padding-top: 100px;
+   background-color: hsl(192, 100%, 9%) ;
+   color: white; 
+   font-size: 12px;
+}
+.conteudo-footer p{
+    margin-top: 20px;
+}
+.img-footer{
+    width: 100%;
+}
+
+.contato{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+.contato p{
+    margin-left: 10px;
+}
+.campo-texto{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+.botao-footer{
+    margin-top: 10px;
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 5px;
+}
+.botao-footer:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+.design{
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 10px;
+    background-color:hsl(192, 100%, 9%) ;
+}
+.design h6{
+    font-size: 11px;
+}
+.design-color{
+    color: hsl(322, 100%, 66%);
+}
